@@ -1,0 +1,40 @@
+
+    header, nav, main, footer {
+        max-width: 75rem;
+        margin: auto;
+    }
+
+
+
+    .hero {max-width: 100%;}
+    
+    
+    div#navWrapper {background-color: silver; width: 100%; float: left;}
+    nav ul {padding-left: 2%;}
+    nav li {width:auto;}
+    nav a {padding: .5rem 1rem;}
+
+    header h1 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    
+    header h2 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    
+    main figure {
+        float: right; 
+        width: 33%; 
+        margin-left: 2%;
+        padding-bottom: 3rem;
+    }
+
+
+    /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
